@@ -26,6 +26,7 @@ export default function Page(props: {
       <style jsx>{`
         .editLink {
           position: fixed;
+          opacity: 0%;
           top: 0;
           right: 0;
           background: var(--orange);

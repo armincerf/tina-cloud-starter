@@ -7,7 +7,7 @@ export const Hero = ({
 }) => {
   return (
     <>
-      <div className="hero">
+      <div className="hero" key={heading}>
         <h2 className="heading">{heading}</h2>
         <p className="message">{message}</p>
       </div>
